@@ -39,7 +39,7 @@
 .friend .chat__timestamp,
 .friend__content .friend__bottom-text,
 .friend__content .friend__status {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .friend__content .friend__bottom-text {
@@ -49,6 +49,7 @@
 .friend .chat__timestamp,
 .friend__content .friend__status {
   font-size: 12px;
+  font-weight: 500;
 }
 
 .friend .friend__now-listening {
@@ -62,6 +63,7 @@
 
 .friend .friend__now-listening span {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .friend__now-listening i {
@@ -88,4 +90,14 @@
   align-items: center;
   border-radius: 20px;
   font-size: 10px;
+}
+
+.friend__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  background-color: #f7f2f2f5;
+  cursor: pointer;
+  border-radius: 3px;
 }
