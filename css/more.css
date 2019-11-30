@@ -2,20 +2,64 @@
   display: flex;
   align-items: center;
   margin-top: 35px;
-  margin-bottom: 25px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #f7f7f7;
+  padding-left: 20px;
 }
 
 .more__btn-list .more__btn {
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 55px;
+  cursor: pointer;
+}
+
+.more .suggestion {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
 
 .more__btn .more__btn-title {
   margin-top: 15px;
   font-size: 14px;
   font-weight: 500;
+}
+
+.more .more__suggestions {
+  padding-top: 25px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.more .more__title {
+  margin-bottom: 20px;
+}
+
+.more .more__suggestions-list {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  padding-left: 15px;
+}
+
+.suggestion .suggestion__title {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.suggestion .suggestion__icon {
+  background-color: #fce006;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestion__icon i {
+  font-size: 28px;
+  color: white;
 }

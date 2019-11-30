@@ -101,3 +101,7 @@
   cursor: pointer;
   border-radius: 3px;
 }
+
+.friend__column .fa-comment-alt {
+  cursor: pointer;
+}
