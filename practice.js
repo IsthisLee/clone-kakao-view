@@ -1,6 +1,6 @@
 const isthisInfo = {
   name: "IsthisLee",
-  age: 21,
+  age: 20,
   gender: "male",
   isHandsome: true,
   favMovies: ["Along the gods", "Transfomer", "Home Alone"],
