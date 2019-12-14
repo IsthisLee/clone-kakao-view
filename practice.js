@@ -1,21 +1,18 @@
-const isthisInfo = {
-  name: "IsthisLee",
-  age: 20,
-  gender: "male",
-  isHandsome: true,
-  favMovies: ["Along the gods", "Transfomer", "Home Alone"],
-  favFood: [
-    {
-      name: "Chicken",
-      fatty: true
-    },
-    {
-      name: "Salad",
-      fatty: false
-    }
-  ]
+alert("nooooo");
+
+const food = {
+  fav: "noodle",
+  fatty: "soso"
 };
 
-isthisInfo.gender = "female";
+const profile = {
+  name: "Leegeonhee",
+  age: 20,
+  locate: "Hwaseong"
+};
 
-console.log(isthisInfo);
+profile.age = 29;
+
+const isthisLee = [food, profile];
+
+console.log(isthisLee);
