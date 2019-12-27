@@ -1,12 +1,5 @@
-
-function sayGoodbye() {
-  console.log("Goodbye!");
+function userInfo(name, age) {
+  console.log("name :", name, "/ age :", age);
 }
 
-const isthisInfo = {
-  country = "Hwaseong",
-  age = "20"
-}
-
-sayGoodbye();
-console.log();
+userInfo("DaengDaeng", 15);
