@@ -3,3 +3,4 @@ function userInfo(name, age) {
 }
 
 userInfo("DaengDaeng", 15);
+decodeURI("www.naver.com");
